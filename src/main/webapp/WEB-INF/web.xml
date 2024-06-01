@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         
+	    <welcome-file-list>
+	        <welcome-file>index.jsp</welcome-file>
+	    </welcome-file-list>
+	    
+         
+         
+         
+         
+         <display-name>StudentDetailsAll</display-name>
+
+	    <servlet>
+	        <servlet-name>StudentAllDetails</servlet-name>
+	        <servlet-class>com.student.StudentAllDetailsServlett</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>StudentAllDetails</servlet-name>
+	        <url-pattern>/StudentAllDetailsServlett</url-pattern>
+	    </servlet-mapping>
+	
+	    
+	    
+	    
+	    <display-name>StudentAccount</display-name>
+
+	    <servlet>
+	        <servlet-name>StudentAccountServlet</servlet-name>
+	        <servlet-class>com.student.StudentAccountServlet</servlet-class>
+	    </servlet>
+	
+	    <servlet-mapping>
+	        <servlet-name>StudentAccountServlet</servlet-name>
+	        <url-pattern>/StudentAccountServlet</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	   
+
+	    
+	
+	
+	
+		
+	    
+	    <display-name>ViewPapers</display-name>
+
+	    <servlet>
+	        <servlet-name>PapersList</servlet-name>
+	        <servlet-class>com.student.PapersListServlet</servlet-class>
+	    </servlet>
+	
+	    <servlet-mapping>
+	        <servlet-name>PapersListServlet</servlet-name>
+	        <url-pattern>/PapersListServ</url-pattern>
+	    </servlet-mapping>
+
+	    
+	    
+	    
+	    
+	    <display-name>ViewQuestions</display-name>
+
+	    <servlet>
+	        <servlet-name>ViewQuestionsServlet</servlet-name>
+	        <servlet-class>com.student.ViewQuestionsServlet</servlet-class>
+	    </servlet>
+	
+	    <servlet-mapping>
+	        <servlet-name>ViewQuestionsServlet</servlet-name>
+	        <url-pattern>/ViewQuestionsServlet</url-pattern>
+	    </servlet-mapping>
+	
+	
+	    
+	    
+	    
+	    
+	    <display-name>StudentAnswersInsert</display-name>
+
+	    <servlet>
+	        <servlet-name>StudentAnswersInsertServlet</servlet-name>
+	        <servlet-class>com.student.StudentAnswersInsertServlet</servlet-class>
+	    </servlet>
+	
+	    <servlet-mapping>
+	        <servlet-name>StudentAnswersInsertServlet</servlet-name>
+	        <url-pattern>/StudentAnswersInsertServ</url-pattern>
+	    </servlet-mapping>
+
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>StudentViewAnswers</servlet-name>
+	        <servlet-class>com.student.StudentViewAnswersServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>StudentViewAnswersServlet</servlet-name>
+	        <url-pattern>/StudentViewAnswersServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>StudentUpdateFormAnswer</servlet-name>
+	        <servlet-class>com.student.StudentUpdateFormAnswerServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>StudentUpdateFormAnswerServlet</servlet-name>
+	        <url-pattern>/StudentUpdateFormAnswerServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>StudentUpdateAnswers</servlet-name>
+	        <servlet-class>com.student.StudentUpdateAnswersServlett</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>StudentUpdateAnswersServlett</servlet-name>
+	        <url-pattern>/StudentUpdateAnswersServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>StudentDeleteAnswers</servlet-name>
+	        <servlet-class>com.student.StudentDeleteAnswersServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>StudentDeleteAnswersServlet</servlet-name>
+	        <url-pattern>/StudentDeleteAnswersServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+
+	    <servlet>
+	        <servlet-name>ModuleCreate</servlet-name>
+	        <servlet-class>com.student.ModuleCreateServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>ModuleCreateServlet</servlet-name>
+	        <url-pattern>/ModuleCreateServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>ModuleList</servlet-name>
+	        <servlet-class>com.student.ModuleListServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>ModuleListServlet</servlet-name>
+	        <url-pattern>/ModuleListServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+
+	    <servlet>
+	        <servlet-name>TeacherModuleList</servlet-name>
+	        <servlet-class>com.student.TeacherModuleListServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>TeacherModuleListServlet</servlet-name>
+	        <url-pattern>/TeacherModuleListServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>TeacherUpdateModule</servlet-name>
+	        <servlet-class>com.student.TeacherUpdateModuleServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>TeacherUpdateModuleServlet</servlet-name>
+	        <url-pattern>/TeacherUpdateModuleServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    <servlet>
+	        <servlet-name>TeacherDeleteModule</servlet-name>
+	        <servlet-class>com.student.TeacherDeleteModuleServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>TeacherDeleteModuleServlet</servlet-name>
+	        <url-pattern>/TeacherDeleteModuleServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+
+
+	    <servlet>
+	        <servlet-name>TeacherCreatePaper</servlet-name>
+	        <servlet-class>com.student.TeacherCreatePaperServlet</servlet-class>
+	    </servlet>
+
+	    <servlet-mapping>
+	        <servlet-name>TeacherCreatePaperServlet</servlet-name>
+	        <url-pattern>/TeacherCreatePaperServ</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	 <servlet>
+        <servlet-name>TeacherLogin</servlet-name>
+        <servlet-class>com.teacher.TeacherLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherLoginServlet</servlet-name>
+        <url-pattern>/TeacherLoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    
+    <servlet>
+        <servlet-name>TeacherRegisterServlet</servlet-name>
+        <servlet-class>com.teacher.TeacherRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherRegisterServlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TeacherProfileUpdateServlet</servlet-name>
+        <servlet-class>com.teacher.TeacherProfileUpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherProfileUpdateServlet</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>TeacherProfileDeleteServlet</servlet-name>
+        <servlet-class>com.teacher.TeacherProfileDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherProfileDeleteServlet</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>PaperListResultServlet</servlet-name>
+    <servlet-class>com.exampaper.PaperListResultServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PaperListResultServlet</servlet-name>
+    <url-pattern>/PaperListResultServlet</url-pattern>
+</servlet-mapping>
+    
+    
+    <servlet>
+		<servlet-name>TeacherModuleServlet</servlet-name>
+		<servlet-class>com.module.TeacherModuleServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TeacherModuleServlet</servlet-name>
+		<url-pattern>/module</url-pattern>
+	</servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>TeacherProfileServlet</servlet-name>
+        <servlet-class>com.teacher.TeacherProfileServlet</servlet-class>
+    </servlet>
+
+    <!-- Map the servlet to a URL pattern -->
+    <servlet-mapping>
+        <servlet-name>TeacherProfileServlet</servlet-name>
+        <url-pattern>TeacherProfileServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+    	<servlet-name>PaperViewServlet</servlet-name>
+    	<servlet-class>com.exampaper.PaperViewServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+    	<servlet-name>PaperViewServlet</servlet-name>
+    	<url-pattern>/PaperViewServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>PaperResult</servlet-name>
+        <servlet-class>com.result.PaperResultServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PaperResult</servlet-name>
+        <url-pattern>/PaperResult</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>UpdateStarValueServlet</servlet-name>
+        <servlet-class>com.yourpackage.UpdateStarValueServlet</servlet-class>
+    </servlet>
+
+    <!-- Map the servlet to a URL pattern -->
+    <servlet-mapping>
+        <servlet-name>UpdateStarValueServlet</servlet-name>
+        <url-pattern>/UpdateStarValue</url-pattern>
+    </servlet-mapping>
+	    
+	   
+	   
+	   
+	   
+	   <servlet>
+        <servlet-name>TeacherAllDetails</servlet-name>
+        <servlet-class>com.result.TeacherAllDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherAllDetailsServlet</servlet-name>
+        <url-pattern>/TeacherAllDetailsServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+  
+    <display-name>UpdatePaperForm</display-name>
+
+	    <servlet>
+	        <servlet-name>UpdatePaperFormServlet</servlet-name>
+	        <servlet-class>com.student.UpdatePaperFormServlet</servlet-class>
+	    </servlet>
+	
+	    <servlet-mapping>
+	        <servlet-name>UpdatePaperFormServlet</servlet-name>
+	        <url-pattern>/UpdatePaperFormServlet</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+</web-app>
+</element>
+

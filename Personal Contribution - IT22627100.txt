@@ -1,0 +1,49 @@
+IT22627100
+Siriwardana NDVS
+
+As this project folder contains some of the codes of other group members, I'll mention my contribution here.
+
+
+
+First Use TeacherLogin.jsp to login as a teacher. Then Continue
+
+1. My contribution 1 - Module Create, View, Update, Delete
+	DBConnect.java inside Package com.student
+	Package com.module 
+			
+	modulecreate.jsp
+	teachermodulelist.jsp
+	teachermodulepage.jsp
+	teacherupdatemodule.jsp
+NOTE:
+*I have modified codes and also added a *validation* to 'mcode' in  'modulecreate.jsp'
+So please consider my marks for 'validation' 
+
+
+
+
+2. My contribution 2 - Exam Paper Create, View, Update, Delete
+	DBConnect.java inside Package com.student
+	Package com.paper 
+	Package com.teacherpaper
+
+	teachercreatepaper.jsp
+	teacherpaperlist.jsp
+	teacherviewquestions.jsp
+	teacherupdatepaperform.jsp 
+
+
+
+
+3. My contribution 3 - Created the mechanism to calculate marks and display results
+	DBConnect.java inside Package com.student
+	Package com.paper 		
+
+	paperresult.jsp
+	CalculateResultServlet - Package com.teacherpaper
+
+This servlet is called just after submitting answers by a student.
+Run Index.jsp -> View Student Details -> View Details -> View Module List
+Then View First Module ->  View Papers ->  Do a Paper 
+Input Answers (Check question table - tanswers)
+Submit, then sanswers and tanswers are compared and scored accordingly and grade is determined according to the score
